@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+
+  {{ if .Permalink }}<base href="{{ .Permalink }}">{{ end }}
+
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+  {{ if .Permalink }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}
+
+  <!-- Latest icon font stylesheet -->
+  <link rel="stylesheet" href="https://cdn.uadigital.arizona.edu/lib/ua-brand-icons/v1.1.0/ua-brand-icons.min.css" integrity="sha256-zv7lDag+WBoksufKSbbp5V/bkJB7lNGdpoGqMV0c/v4=">
+
+  <!-- Compiled and minified UA Bootstrap CSS, icon font not included -->
+  <link rel="stylesheet" href="https://cdn.uadigital.arizona.edu/lib/ua-bootstrap/v1.0.0-beta.25/ua-bootstrap.min.css" integrity="sha256-v2I4wTcBk+m/yHE04WG9tZM+at53SUNwCEZ/zFjFqWg=">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.uadigital.arizona.edu/lib/ua-bootstrap/v1.0.0-beta.25/ua-bootstrap.min.js" integrity="sha256-7tKCJqRjF8+HJSe1TluwlJhMO5I3m8xR9T3jwegKTtE="></script>
+</head>
