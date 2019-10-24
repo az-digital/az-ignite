@@ -3,19 +3,13 @@
 
 name = "AZ Ignite"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://bitbucket.org/az-digital/az-ignite/src/master/LICENSE"
 description = ""
-homepage = "http://example.com/"
+homepage = "https://bitbucket.org/az-digital/az-ignite"
 tags = []
 features = []
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "UA Digital"
+  homepage = "https://digital.arizona.edu/"
