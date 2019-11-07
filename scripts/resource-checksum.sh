@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ -z ${2} ]]; then
-  ALGO="384"
+  ALGO="512"
 else
   ALGO="${2}"
 fi

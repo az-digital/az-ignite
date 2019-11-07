@@ -1,0 +1,19 @@
+js:
+  -
+    name: jQuery
+    hash: sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==
+    url: https://code.jquery.com/jquery-2.2.4.min.js
+  -
+    name: ua-bootstrap
+    hash: sha512-oPyfQi4ZK2BimwlR+eAwJ5uGZAt92ayqlyTcgc6fKxKL8JmiCKfQF4H37j7A3bu/7HcMRf6zbsORc0XaDlErbQ==
+    url: https://cdn.uadigital.arizona.edu/lib/ua-bootstrap/v1.0.0-beta.26/ua-bootstrap.min.js
+
+css:
+  -
+    name: ua-bootstrap-css
+    hash: sha512-ZMJeyu+Mxz+WoR/tgoGcyo+s7I1yYx8dXQCdPvoFeq2zTrAIyypbjKFqGy9pP+jBucx8QQy8LsOajxlsSGy0KA==
+    url: https://cdn.uadigital.arizona.edu/lib/ua-bootstrap/v1.0.0-beta.26/ua-bootstrap.min.css
+  -
+    name: icons
+    hash: sha512-jyw4ZvihHjbiJZMuxeiuqBlG0o8O1QVg6ypCTj8YuTrizlVSUS7xANZ3zxFumOFz+9SJsQ3mQwnC0/hCB0FcUg==
+    url: https://cdn.uadigital.arizona.edu/lib/ua-brand-icons/v1.1.0/ua-brand-icons.min.css
