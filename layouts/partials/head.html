@@ -14,17 +14,17 @@
 
   {{ template "_internal/google_analytics.html" . }}
 
-  {{ $css := site.Data.ignite.assets.css }}
+  {{ $css := sort (site.Data.ignite.assets.css) "weight" }}
   {{ range $css }}
     <link rel="stylesheet"
-      href="{{ printf .url }}"
+      href="{{ .url }}"
       integrity="{{ .hash }}"
       crossorigin="anonymous">
   {{ end }}
 
-  {{ $js := site.Data.ignite.assets.js }}
+  {{ $js := sort (site.Data.ignite.assets.js) "weight" }}
   {{ range $js }}
-    <script src="{{ printf .url }}"
+    <script src="{{ .url }}"
       integrity="{{ .hash }}"
       crossorigin="anonymous"></script>
   {{ end }}
