@@ -3,7 +3,7 @@
 
 name = "Ignite"
 license = "MIT"
-licenselink = "https://bitbucket.org/az-digital/az-ignite/src/master/LICENSE"
+licenselink = "https://github.com/az-digital/az-ignite/blob/main/LICENSE"
 description = ""
 homepage = "https://bitbucket.org/az-digital/az-ignite"
 tags = []
